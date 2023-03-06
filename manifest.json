@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Better-Gashadokai",
+  "version": "1.0",
+
+  "description": "Adds a next chapter button",
+
+  "icons": {
+    "48": "icons/megumin.png",
+    "96": "icons/megumin.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.gashadokai.xyz/*"],
+      "js": ["index.js"]
+    }
+  ]
+  
+
+}
